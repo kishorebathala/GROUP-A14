@@ -52,14 +52,4 @@ Urban drainage systems face blockages due to waste buildup, causing flooding, co
 
 ## Gantt Chart for Extended Project (PROJ3999)
 
-| **Task**                         | **Start Week** | **End Week** | **Duration (Weeks)** | **Milestone**                  |
-|-----------------------------------|----------------|--------------|-----------------------|--------------------------------|
-| Project Planning and Research    | Week 1         | Week 2       | 2 weeks              | Research completion            |
-| Hardware Selection and Procurement| Week 3         | Week 4       | 2 weeks              | All components acquired        |
-| System Design and Prototyping     | Week 5         | Week 8       | 4 weeks              | Prototype ready                |
-| Sensor Integration and Testing    | Week 9         | Week 10      | 2 weeks              | Sensors calibrated             |
-| Software Development (AI & CV)    | Week 11        | Week 12      | 2 weeks              | Initial AI model tested        |
-| Navigation System Implementation  | Week 13        | Week 14      | 2 weeks              | Navigation functional          |
-| System Integration and Debugging  | Week 15        | Week 16      | 2 weeks              | Full system functional         |
-| Field Testing and Evaluation      | Week 17        | Week 18      | 2 weeks              | Field test results analyzed    |
-| Final Report Preparation          | Week 19        | Week 20      | 2 weeks              | Project documentation complete |
+![image](https://github.com/user-attachments/assets/e4c2e343-f3ac-419a-ab6b-e2207a277eb5)
