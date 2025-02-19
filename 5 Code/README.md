@@ -101,3 +101,4 @@ void captureImage() {
     Serial.println("Capturing Image... (Camera module required)");
     // This function will work with ESP32-CAM or OV7670
 }
+
