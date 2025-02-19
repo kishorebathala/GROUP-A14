@@ -39,7 +39,6 @@ Field and integration testing showed significant improvements in drainage system
 - **Enhanced Camera Accuracy:** Improving image resolution for more precise blockage detection.  
 - **Battery Optimization:** Exploring energy-efficient power systems for longer operation times.  
 - **Real-Time Monitoring:** Implementing live data streaming for more responsive monitoring by operators.  
-
 ---
 
 ### Conclusion
