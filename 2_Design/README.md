@@ -95,7 +95,6 @@ Non-functional requirements outline the qualities the system must exhibit in ter
 ### 7. **Maintainability:**
    - The system should be designed for easy maintenance, with clearly documented software and hardware components.
    - The robot should be easy to disassemble and repair in case of hardware failure.
-
 ### 8. **Environmental Considerations:**
    - The system should be designed to **operate in humid and wet environments** without performance degradation.
    - The components should be **water-resistant** and have proper sealing to prevent damage during operation.
