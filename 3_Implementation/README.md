@@ -1,6 +1,6 @@
 # Autonomous System for Detecting Drainage Blockages in Urban Areas
 
-## Project Implementation
+## Project Implementation 
 
 ### 1. **Project Planning and Research**
    - **Objective:** Understanding the problem of drainage blockages and gathering relevant resources.
