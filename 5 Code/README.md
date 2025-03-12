@@ -9,7 +9,7 @@ AF_DCMotor rear_right(4, MOTOR12_64KHZ);
 
 // Define ultrasonic sensor pins
 #define echoPin 9
-#define trigPin 10
+#define trigPin 10 
 
 // Define GSM Module (SIM800L)
 SoftwareSerial gsmSerial(7, 8); // RX, TX for GSM module
