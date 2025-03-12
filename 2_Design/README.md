@@ -1,6 +1,6 @@
 # Autonomous System for Detecting Drainage Blockages in Urban Areas
 
-## High-Level Design
+## High-Level Design 
 
 The high-level design of the autonomous drainage blockage detection system focuses on the integration of various components to achieve real-time detection, mapping, and navigation within urban drainage systems. The design follows a modular approach for easy scalability and adaptability to different urban environments.
 
