@@ -6,7 +6,7 @@ Unit tests were conducted on each individual component of the system to ensure t
 - **Motor Testing:** Ensured DC motors and stepper motors responded correctly to control commands and moved the robot in expected directions.  
 - **Camera Testing:** Checked if the high-definition camera and infrared camera were correctly capturing images of the drainage system for further analysis.  
 
-### 2. **Integration Testing**
+### 2. **Integration Testing** 
 Integration testing involved checking the interaction between different modules, including hardware and software components.  
 - **Sensor Integration:** Ensured data from multiple sensors were being received and processed accurately by the Raspberry Pi.  
 - **Communication Integration:** Verified Bluetooth communication between the robot and the operator system was stable, and the data transmission was smooth.  
