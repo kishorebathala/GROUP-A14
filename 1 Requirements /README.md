@@ -2,7 +2,7 @@
 
 ## High-Level Requirements  
 
-1. **Autonomous Navigation:**
+1. **Autonomous Navigation:**  
    - The robot must autonomously navigate urban drainage systems to detect and map blockages.
    
 2. **Blockage Detection:**
