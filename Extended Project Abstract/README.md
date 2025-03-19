@@ -3,7 +3,7 @@
 ## Project Details
 - **Project Supervisor:** Dr. Ramesha.M  
 - **Cluster Name:** (Comm.) (Group A 14)  
-- **Project Coordinator:** Dr. Ambar Bajpai  
+- **Project Coordinator:** Dr. Ambar Bajpai   
  
 ---
 
