@@ -1,6 +1,6 @@
 ## Testing for Autonomous System for Detecting Drainage Blockages
 
-### 1. **Unit Testing** 
+### 1. **Unit Testing**  
 Unit tests were conducted on each individual component of the system to ensure they functioned as expected. This included testing the sensors, motors, communication modules, and the core processing unit (Raspberry Pi).  
 - **Sensors Testing:** Verified the output from ultrasonic and infrared sensors for accuracy in detecting obstacles.  
 - **Motor Testing:** Ensured DC motors and stepper motors responded correctly to control commands and moved the robot in expected directions.  
