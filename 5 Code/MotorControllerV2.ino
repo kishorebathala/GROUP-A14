@@ -1,16 +1,14 @@
+#include <AFMotor.h> 
 #include <SoftwareSerial.h>
-#include <AFMotor.h>
 
 // GSM module setup
-SoftwareSerial mySerial(10, 11); // RX, TX for SIM900A
-const int switchPin = 3;  // Define the switch pin
-const char* mobileNumber = "+919535537848"; // Mobile number to send SMS
-bool isPressed = false;
+SoftwareSerial mySerial(6, 7); // RX, TX for SIM900A
+const char* mobileNumber = "+919347265708"; // Mobile number to send SMS
 bool smsSent = false;     // Flag to prevent multiple SMS sends
 
 // Ultrasonic sensor pins
 #define echoPin 9   // Echo pin on pin 9
-#define trigPin 12  // Trigger pin moved to pin 12
+#define trigPin 10  // Trigger pin on pin 10
 
 // Initialize the four motors
 AF_DCMotor front_left(1, MOTOR12_64KHZ);
@@ -26,10 +24,10 @@ void setup() {
   Serial.begin(9600);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
-  pinMode(switchPin, INPUT_PULLUP);
   mySerial.begin(9600);
   Serial.println("GSM Modem and Motors Ready");
   delay(3000);
+  // sendSMS();
 }
 
 void loop() {
@@ -55,14 +53,13 @@ void loop() {
     stopMotors();
     sendSMS();
     smsSent = true;
-    delay(2000);
   }
 
-  if (distance < 10 && Direction == 1) {
-    Direction = -1;
-    stopMotors();
-    delay(2000);
-  }
+  // if (distance < 10 && Direction == 1) {
+  //   Direction = -1;
+  //   stopMotors();
+  //   delay(2000);
+  // }
   if (count <= 1 && Direction == -1) {
     Direction = 0;
   }
@@ -89,7 +86,7 @@ void loop() {
   }
 }
 
-// Motor and SMS functions remain the same
+// Motor control functions
 void stopMotors() {
   front_left.setSpeed(0);
   rear_left.setSpeed(0);
@@ -123,6 +120,7 @@ void moveBackward() {
   rear_right.run(BACKWARD);
 }
 
+// Function to send an SMS
 void sendSMS() {
   Serial.println("Sending SMS through GSM Modem");
   mySerial.println("AT+CMGF=1");
