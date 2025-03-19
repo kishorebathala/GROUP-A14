@@ -8,7 +8,7 @@
      - Literature review on existing drainage maintenance systems.
      - Identifying required components such as sensors, motors, and communication modules.
      - Researching solutions for autonomous navigation and blockage detection.
-
+ 
 ### 2. **Hardware Selection and Procurement**
    - **Objective:** Selecting the appropriate hardware components to design the autonomous robot.
    - **Tasks:**
